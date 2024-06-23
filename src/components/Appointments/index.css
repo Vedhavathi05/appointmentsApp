@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+@media (min-width: 768px) {
+  .card-container1 {
+    background-color: white;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .image-styling {
+    min-width: 100px;
+    height: 250px;
+    display: block;
+  }
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9897f0, #8b5cf6);
+  margin: 0px;
+  padding: 40px;
+}
+
+@media (max-width: 767px) {
+  .card-container1 {
+    background-color: white;
+  }
+  .image-styling {
+    display: none;
+  }
+}
+
+.styling-for-the-form-elements {
+  padding: 10px;
+}
+.adding-width-to-the-input {
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.button-styling {
+  background-color: transparent;
+  color: #8b5cf6;
+  border: 1px solid black;
+  width: 80px;
+  height: 25px;
+  border-radius: 7px;
+}
+.Appointments-styling {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.eachItemStyling {
+  padding: 50px;
+}
+.paragraph {
+  font-weight: bold;
+  font-size: 15px;
+}

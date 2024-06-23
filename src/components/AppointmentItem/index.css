@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.cardContainerForAppointments {
+  background-color: white;
+  width: 300px;
+  height: 110px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+}
+.container-styling {
+  display: flex;
+  justify-content: space-between;
+}
+.button-styling {
+  border: 0px;
+}
+.paragraph {
+  font-weight: bold;
+}
